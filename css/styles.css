@@ -1,0 +1,83 @@
+html {
+    width: 700px;
+
+}
+
+body {
+    border: 2px solid black;
+    text-align: center;
+}
+  
+h2 {
+    
+}
+
+header {
+    background-color: blueviolet;
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 15px 0;
+    color:aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.hm, .p2, .p3 {
+    padding: 10px;
+    margin: 0 5px;
+}
+
+footer {
+    background-color: blueviolet;
+    color: white;
+    padding: 1px;
+    text-align: left;
+    font-size: small;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1, .box2, .box3 {
+    border: 2px solid black;
+    align-items: 25%;
+    width: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.box4, .box5, .box6 {
+    border: 2px solid black;
+    align-items: 25%;
+    width: 150px;
+    margin-bottom: 10px;
+    
+}
+
+.box2 {
+    background-color: yellowgreen;
+}
+
+.box4 {
+    background-color: yellowgreen;
+    text-transform: lowercase;
+}
+
+.box5 {
+    background-color: lightsalmon;
+    text-transform: uppercase;
+}
+
+.box6 {
+    background-color: lightblue;
+    text-transform: lowercase;
+}
