@@ -22,6 +22,11 @@ header {
     letter-spacing: 20px;
 }
 
+.logo {
+    display: flex;
+    justify-content: left;
+}
+
 .nav {
     display: flex;
     justify-content: end;
