@@ -1,9 +1,11 @@
 html {
-    width: 700px;
+    display: flex;
+    justify-content: center;
 
 }
 
 body {
+    width: 900px; /* putting in body centered everything */
     border: 2px solid black;
     text-align: center;
 }
@@ -47,9 +49,10 @@ footer {
     
 }
 
-.container {
+.container1 {
     display: flex;
     justify-content: space-evenly;
+    background-image: ;
 }
 
 .box1, .box2, .box3 {
@@ -60,11 +63,18 @@ footer {
     
 }
 
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+}
+
 .box4, .box5, .box6 {
     border: 2px solid black;
     align-items: 25%;
     width: 150px;
-    margin-bottom: 10px;
+    margin-top: 25px; /* this allows image to show more */ 
+    margin-bottom: 25px;
     
 }
 
