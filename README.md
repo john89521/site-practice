@@ -13,3 +13,4 @@ This is cool, but saving is a problem.
 - learn to save  
 - it is in the cloud  
 - find preview  
+So you commit your changes just like normal.  
